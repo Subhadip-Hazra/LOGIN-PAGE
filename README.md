@@ -20,7 +20,7 @@ SuperLogin Portal is not just a login page; it's a visual masterpiece, carefully
    ```
 
 2. **Open in Your Browser or Integrate:**
-   - Open `index.html` in your browser for an instant demo.
+   - Open `login.html` in your browser for an instant demo.
    - Seamlessly integrate SuperLogin into your project for an instant aesthetic boost.
 
 3. **Customize to Fit Your Style:**
@@ -45,4 +45,3 @@ We welcome your creative energies! Feel free to open an issue or submit a pull r
 Let's connect and discuss more! Find me on [LinkedIn](https://www.linkedin.com/in/subhadiphazra). Say hello and let's create something extraordinary!
 
 Happy coding! 🚀
-```
