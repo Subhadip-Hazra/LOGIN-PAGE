@@ -1,0 +1,129 @@
+body {
+    background-color:  rgba(139, 139, 209, 0.527);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+.container {
+    background-color: rgba(28, 14, 233, 0.2);
+    padding:40px; /* Increase padding for better spacing */
+    border-radius: 15px;
+    max-width: 400px;
+    width: 90%;
+    box-sizing: border-box; /* Include padding and border in width */
+    text-align: center;
+    border:1px solid rgb(25, 24, 24);
+    box-shadow: rgba(235, 229, 229, 0.35) 0px 5px 15px;
+
+}
+
+.login-form {
+    text-align: center;
+    color: rgb(255, 251, 251);
+}
+
+.input-container {
+    margin: 10px 0;
+    padding: 10px 0; /* Reduce top and bottom padding */
+    text-align: left;
+    color: white;
+
+}
+
+/* Adjust label positioning for small screens */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left; /* Align labels to the left on small screens */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(44, 42, 42);
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 24px;
+    background: rgba(28, 14, 233, 0.2);
+    color: rgba(11,10,10,0.788);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(248, 244, 244, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.message-container {
+    margin-top: 10px;
+}
+
+.message {
+    color: #f1eae9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container i {
+    position: relative;
+    left: 96%;
+    top: -30px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: rgba(251, 247, 247, 0.7);
+
+}
+a{
+    color: #0808f3;
+}
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .container {
+        max-width: 100%;
+        border-radius: 10px;
+        border:1px solid rgb(25, 24, 24);
+
+    }
+
+    .input-container {
+        padding: 10px 0; /* Increase top and bottom padding */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for screens up to 480px wide (e.g., smartphones) */
+    .container {
+        max-width: 100%;
+        border-radius: 10px;
+        border:1px solid rgb(25, 24, 24);
+        
+    }
+
+    .input-container {
+        padding: 15px 0;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        padding: 10px;
+    }
+}

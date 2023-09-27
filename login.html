@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <form class="login-form">
+            <h2>Login</h2>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Email" id="email" name="email">
+                <i class='bx bxl-gmail bx-tada' style='color:#d41811' ></i>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Password" id="password" name="password" required minlength="6" >
+                <i class='bx bx-lock bx-tada' style='color:#2c2a2a' ></i>
+            </div>
+            <button class="login-button" type="submit">Login</button>
+        </form>
+        <div class="message-container">
+            <p class="message" id="login-message"></p>
+        </div>
+        
+        <!-- Add a link for changing password -->
+        <div class="change-password-link">
+            <a href="change-password.html">Forgot Password? Click here to change it.</a>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
