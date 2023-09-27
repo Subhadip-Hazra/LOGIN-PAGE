@@ -30,7 +30,7 @@ SuperLogin Portal is not just a login page; it's a visual masterpiece, carefully
 
 Behold the beauty of SuperLogin Portal:
 
-![SuperLogin Desktop](https://github.com/Subhadip-Hazra/login-page-for-any-website/blob/main/Screenshot%20(2488).png)
+![SuperLogin Desktop]([https://github.com/Subhadip-Hazra/login-page-for-any-website/blob/main/Screenshot%20(2488).png](https://github.com/Subhadip-Hazra/login-page-for-any-website/blob/436b6530a17dab62aed49791abcf9f053f1a482a/Screenshot%20(2488).png))
 
 ![SuperLogin Mobile](https://github.com/Subhadip-Hazra/login-page-for-any-website/blob/main/Screenshot%20(2489).png)
 
